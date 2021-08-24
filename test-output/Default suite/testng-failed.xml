@@ -3,17 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Com.Vtiger.Vtiger_Create_org">
+      <class name="practice.com.forPractice">
         <methods>
-          <include name="logoutVTiger"/>
-          <include name="loginVTiger"/>
-          <include name="setup_JDBC_Report"/>
-          <include name="setup_JDBC_Report_close"/>
-          <include name="tc1"/>
-          <include name="launch_Browser"/>
-          <include name="close_Browser"/>
+          <include name="amazon"/>
+          <include name="end"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- Com.Vtiger.Vtiger_Create_org -->
+      </class> <!-- practice.com.forPractice -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
